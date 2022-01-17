@@ -1,0 +1,348 @@
+*{
+  margins: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* ╔═════════════ ✿.｡.:* ☆:**:. Nav .:**:.☆*.:｡.✿ ═════════════╗ */
+
+#navbar-container{
+  background-color: Snow !important;
+}
+
+.navbar-brand{
+  font-size:275%;
+  font-family: 'Hurricane';
+  padding-left: 25px;
+}
+
+#navbar-text{
+  font-size:150%;
+  font-family: 'Raleway';
+}
+
+.nav-link{
+  color: DarkTurquoise !important;
+}
+
+.nav-link.active{
+  color: Black !important;
+}
+
+.nav-link:hover{
+  color: DeepPink !important;
+}
+
+/* ╔═════════════ ✿.｡.:* ☆:**:. Main .:**:.☆*.:｡.✿ ═════════════╗ */
+
+#carousel-main{
+  height: 915px;
+  /*filter: brightness(50%);*/
+}
+
+.carousel-inner img{
+  position: absolute;
+  top:-205px
+}
+
+h2{
+  padding-top: 16px;
+  text-align: center;
+}
+
+.title-line-1{
+  font-family: 'Raleway';
+  font-size: 65%;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.title-line-2{
+  font-family: 'Hurricane', cursive;
+  font-weight: lighter;
+  font-size: 325%;
+  line-height: 20px;
+  padding-bottom: 50px;
+}
+
+/* ╔═════════════ ✿.｡.:* ☆:**:. Form .:**:.☆*.:｡.✿ ═════════════╗ */
+
+#pricecard-container{
+  width: 930px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.pricecard{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px
+}
+
+.card{
+  border-radius: 0;
+  border-width: 2px;
+}
+
+#price1{
+  border-color: HotPink;
+}
+
+#price2{
+  border-color: DeepSkyBlue;
+}
+
+#price3{
+  border-color: MediumPurple;
+}
+
+h5{
+  font-family: 'Raleway';
+  font-weight: bolder;
+  font-size: 150%;
+}
+
+.main-text{
+  font-family: 'Hurricane', cursive;
+  font-size: 200%;
+  font-weight:100;
+}
+
+.porcentaje{
+  font-family: 'Hurricane', cursive;
+  font-size: 300%;
+  font-weight:bold;
+  line-height: 5px;
+}
+
+select option{
+  color: Gray !important;
+  font-family: 'Raleway';
+}
+
+input, select, textarea, label, .small-green-button{
+  font-family: 'Raleway';
+}
+
+label{
+  font-size: 90%;
+  color:DarkTurquoise;
+}
+
+#success-message{
+  background-color: LavenderBlush !important;
+  border-radius: 5px;
+  border: dotted 1px DarkTurquoise;
+  margin-top: 25px;
+  padding-top: 12px;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size:125%;
+}
+
+.form-control-plaintext::placeholder{
+  color: black !important;
+}
+
+.form-control:focus{
+  border-color: LightGray !important;
+  box-shadow: inset 0 2px 3px rgb(224, 255, 255, 0.075), 0 0 8px rgb(0, 206, 209, 2) !important;
+}
+
+.small-green-button{
+  background-color:DarkTurquoise;
+  border:0px;
+  width: inherit;
+}
+
+.small-green-button:hover{
+  background-color:DeepPink;
+  border:0px;
+  width: inherit;
+}
+
+/* ╔═════════════ ✿.｡.:* ☆:**:. Grid .:**:.☆*.:｡.✿ ═════════════╗ */
+
+.grid-container{
+  display: flex;
+  justify-content: center;
+}
+
+.grid-inner{
+  display: grid;
+  grid-template-columns: repeat(33, 35px);
+  grid-template-rows: repeat(60, 35px);
+  grid-gap: 5px;
+  margin: 5px;
+}
+
+#pic1, #text1{
+  grid-column: 1 /span 22;
+  grid-row: 1 / span 16;
+}
+
+#picture2, #text2{
+  grid-column: 23 / span 11;
+  grid-row: 1 / span 8;
+}
+
+#picture3, #text3{
+  grid-column: 23 / span 11;
+  grid-row: 9 / span 8;
+}
+
+#picture4, #text4{
+  grid-column: 1 / span 11;
+  grid-row: 17 / span 8;
+}
+
+#picture5, #text5{
+  grid-column: 1 / span 11;
+  grid-row: 25 / span 8;
+}
+
+#picture6, #text6{
+  grid-column: 12 / span 22;
+  grid-row: 17 / span 16;
+}
+
+#picture7, #text7{
+  grid-column: 1 / span 22;
+  grid-row: 33 / span 16;
+}
+
+#picture8, #text8{
+  grid-column: 23 / span 11;
+  grid-row: 33 / span 8;
+}
+
+#picture9, #text9{
+  grid-column: 23 / span 11;
+  grid-row: 41 / span 8;
+}
+
+#picture10, #text10{
+  grid-column: 1 / span 11;
+  grid-row: 49 / span 8;
+}
+
+#picture11, #text11{
+  grid-column: 1 / span 11;
+  grid-row: 57 / span 8;
+}
+
+#picture12, #text12{
+  grid-column: 12 / span 22;
+  grid-row: 49 / span 16;
+}
+
+#picture13, #text13{
+  grid-column: 1 / span 22;
+  grid-row: 65 / span 16;
+}
+
+#picture14, #text14{
+  grid-column: 23 / span 11;
+  grid-row: 65 / span 8;
+}
+
+#picture15, #text15{
+  grid-column: 23 / span 11;
+  grid-row: 73 / span 8;
+}
+
+.grid_item, .text{
+  transition: 0.5s ease-in-out;
+}
+
+.grid_item:hover{
+  opacity: 0;
+}
+
+.grid_item:hover .text{
+  opacity: 1;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', cursive;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: White;
+  background-color: PaleTurquoise;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ╔═════════════ ✿.｡.:* ☆:**:. Footer .:**:.☆*.:｡.✿ ═════════════╗ */
+
+#footer-container{
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: Snow !important;
+}
+
+.footer-brand{
+  font-family: 'Hurricane';
+  font-size:355%;
+  font-weight: lighter;
+}
+
+#brand{
+  color: Black;
+  text-decoration: none;
+}
+
+.footer-link{
+  font-family: 'Raleway';
+  font-size:125%;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.footer-icon, .footer-link{
+  color: DarkTurquoise;
+}
+
+.footer-icon, .footer-link:hover{
+color: DeepPink;
+}
+
+#icon-container{
+  padding-top: 15px;
+  margin-left: -15px;
+}
+
+.btn-secondary-outline{
+  border: solid 1px DarkTurquoise;
+  color: DarkTurquoise;
+}
+
+.btn-secondary-outline:hover{
+  border: solid 1px DeepPink;
+  color: DeepPink;
+}
+
+/* ╔═════════════════ ✿.｡.:* ☆:**:. TY .:**:.☆*.:｡.✿ ═════════════════╗ */
+
+.thank-you{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -31px;
+}
+
+h4{
+  font-family: 'Raleway';
+  font-weight: bolder;
+  font-size: 150%;
+  color: DeepPink;
+}
